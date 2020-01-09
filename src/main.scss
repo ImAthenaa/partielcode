@@ -63,8 +63,7 @@ section{
 }
 
 .degrad{
-    width: 200px;
-    height: 40px;
+    @include tailleboutton;
     color: $text;
     background-image: linear-gradient(to right, $degblue, $degrose);
     border-radius: 15px;
@@ -73,8 +72,7 @@ section{
 }
 
 .white{
-    width: 200px;
-    height: 40px;
+    @include tailleboutton;
     color: $text;
     text-align: center;
     border-radius: 15px;
@@ -84,8 +82,7 @@ section{
 }
 
 .vert{
-    width: 200px;
-    height: 40px;
+    @include tailleboutton;
     color: $green;
     text-align: center;
     border-radius: 15px;
