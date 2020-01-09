@@ -32,7 +32,7 @@ li {
   margin-left: 100px;
 }
 
-.container1 {
+.container1, .container2, .container3, .container4 {
   display: flex;
 }
 
@@ -44,10 +44,12 @@ p {
 
 section {
   margin-top: 200px;
+  padding-left: 200px;
+  width: 655px;
 }
 
-.showcase {
-  font-size: 50px;
+.showcase, .folks {
+  font-size: 40px;
 }
 
 .button1 {
@@ -74,6 +76,44 @@ section {
   border: 1px #ffffff solid;
   margin-left: 50px;
   padding-top: 20px;
+}
+
+.vert {
+  width: 200px;
+  height: 40px;
+  color: #00EC98;
+  text-align: center;
+  border-radius: 15px;
+  padding-top: 20px;
+  background-color: #1E3639;
+}
+
+.card {
+  background-color: #20202C;
+  height: 400px;
+  width: 400px;
+  margin-top: 30px;
+  margin-right: 50px;
+  padding: 20px;
+}
+
+.pot {
+  background-color: #39394D;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.custo {
+  font-size: 22px;
+}
+
+.carre {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.mockup {
+  width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
