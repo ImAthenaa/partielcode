@@ -36,7 +36,7 @@ li{
     margin-left: 100px;
 }
 
-.container1, .container2, .container3, .container4{
+.container1, .container2, .container3, .container4, .container5{
     display: flex;
 }
 
@@ -52,8 +52,9 @@ section{
     width: 655px;
 }
 
-.showcase, .folks{
+.showcase, .folks, .transparent{
     font-size: 40px;
+    margin-top: 20px;
 }
 
 .button1{
@@ -120,4 +121,43 @@ section{
 
 .mockup{
     width: 100%;
+}
+
+.transparent{
+    text-align: center;
+}
+
+.pcentre{
+    text-align: center;
+}
+
+.container5, section{
+    justify-content: center;
+    padding-left: -200px;
+}
+
+.triangle1{
+    position: absolute;
+    right: 900px;
+}
+
+.cercle{
+    position: absolute;
+    left: 1550px;
+}
+
+.triangle3{
+    position: absolute;
+    left: 200px;
+}
+
+.monthly{
+    width: 200px;
+    height: 40px;
+    color: $text;
+    text-align: center;
+    border-radius: 15px;
+    border: 1px $text solid;
+    margin-left: 225px;
+    padding-top: 20px;
 }
